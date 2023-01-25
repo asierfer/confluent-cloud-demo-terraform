@@ -333,7 +333,7 @@ resource "confluent_connector" "s3_sink" {
     "name"                     = "${var.my_prefix}-S3-SINKConnector-0"
     "kafka.auth.mode"          = "SERVICE_ACCOUNT"
     "kafka.service.account.id" = confluent_service_account.sa-cloud.id
-    "s3.bucket.name"           = "${var.my_prefix}-test"
+    "s3.bucket.name"           = "${var.my_prefix}test"
     "output.data.format"       = "JSON"
     "time.interval"            = "DAILY"
     "flush.size"               = "1000"
