@@ -1,3 +1,5 @@
+Terraform code to create a demo environment in Confluent Cloud; from an environment to cluster linking between two clusters. Includes AWS S3 example
+
 -----------------------------------------------------------------------------------
 This example is for demonstration or learning purposes. Not optimized not modulated
 -----------------------------------------------------------------------------------
