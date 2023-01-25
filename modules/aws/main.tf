@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "s3_bucket" {
-  bucket = "afe-tf-test"
+  bucket = "your-bucket-tf"
 
   //lifecycle {
     //prevent_destroy = true
